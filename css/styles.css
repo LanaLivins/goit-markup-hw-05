@@ -600,7 +600,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding-top: 72px;
   padding-bottom: 24px;
   padding-left: 24px;
   padding-right: 24px;
@@ -622,9 +621,13 @@ img {
   padding-bottom: 16px;
 }
 
-.label-form input {
+.label-form {
   display: flex;
   flex-direction: column;
+  margin-top: 16px;
+}
+
+.label-form input {
   height: 40px;
   width: 100%;
 }
@@ -646,4 +649,36 @@ img {
 .button-form {
   height: 56px;
   width: 169px;
+}
+
+.div-form-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin: 24px;
+}
+
+.form-icon {
+  border: 1px solid #8e8f99;
+  background-color: #e7e9fc;
+  border-radius: 100%;
+  padding: 8px;
+  display: inline-block;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  width: 24px;
+  height: 24px;
+}
+
+.form-icon-href {
+  fill: #2e2f42;
+}
+
+.paragraf-form {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
