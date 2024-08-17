@@ -534,55 +534,107 @@
 
     <div class="backdrop is-open">
       <div class="modal">
-        <form class="contact-form">
-          <div class="div-form-icon">
-            <svg class="form-icon" width="8" height="8">
-              <use
-                class="form-icon-href"
-                href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
-              ></use>
-            </svg>
-          </div>
+        <button class="button-icon" type="button">
+          <svg class="form-icon" width="8" height="8">
+            <use
+              class="form-icon-href"
+              href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
+            ></use>
+          </svg>
+        </button>
 
-          <p class="paragraf-form">
-            Leave your contacts and we will call you back
-          </p>
+        <p class="paragraf-form">
+          Leave your contacts and we will call you back
+        </p>
 
-          <div class="label-form">
-            <label class="">
-              Name
-              <input type="text" name="name" />
-            </label>
+        <div class="label-form">
+          <form class="contact-form">
+            <div class="div-form">
+              <label class="label-form" for="user-name">
+                Name
+                <div class="div-input-form">
+                  <input
+                    class="input-form"
+                    id="user-name"
+                    type="text"
+                    name="use-name"
+                  />
+                  <svg class="svg-input-form" width="18" height="24">
+                    <use
+                      class="svg-use-input-form"
+                      href="./images/symbol-defs.svg#icon-person-black-18dp-1"
+                    ></use>
+                  </svg>
+                </div>
+              </label>
+            </div>
 
-            <labe class="label-form">
-              Phone
-              <input type="tel" name="phone" />
-            </labe>
+            <div class="div-form">
+              <label class="label-form" for="user-phone">
+                Phone
+                <div class="div-input-form">
+                  <input
+                    class="input-form"
+                    id="user-phone"
+                    type="text"
+                    name="use-phone"
+                  />
+                  <svg class="svg-input-form" width="18" height="24">
+                    <use
+                      class="svg-use-input-form"
+                      href="./images/symbol-defs.svg#icon-phone-black-18dp-1"
+                    ></use>
+                  </svg>
+                </div>
+              </label>
+            </div>
 
-            <label class="label-form">
-              Email
-              <input type="email" name="email" />
-            </label>
+            <div class="div-form">
+              <label class="label-form" for="user-email">
+                Email
+                <div class="div-input-form">
+                  <input
+                    class="input-form"
+                    id="user-email"
+                    type="text"
+                    name="user-email"
+                  />
+                  <svg class="svg-input-form" width="18" height="24">
+                    <use
+                      class="svg-use-input-form"
+                      href="./images/symbol-defs.svg#icon-email-black-18dp-1"
+                    ></use>
+                  </svg>
+                </div>
+              </label>
+            </div>
 
-            <label class="label-form-comment">
+            <div class="div-comment-form"> 
+            <label class="label-form" for="user-comment">
               Comment
-              <input type="text" name="comment" />
-            </label>
+              <div>
+              <input class="input-comment-form" id="user-comment" type="text" name="user-comment" placeholder="Text input" />
+            </div>
+          </label>
           </div>
 
-          <div class="checkbox-container">
-            <label class="acceptTerms">
-              <input type="checkbox" name="acceptTerms" />I accept the terms and
-              conditions of the
-              <a href="privacy-policy.html" target="_blank"
-                >Privacy Policy</a
-              ></label
-            >
-          </div>
-          <div class="div-button-form">
-            <button class="button-form" type="submit">Send</button>
-          </div>
-        </form>
+        <div class="checkbox-container">
+          <label class="accept-terms" for="user-privacy">
+            <input class="visually-hidden" id="user-privacy" type="checkbox" name="user-privacy" value="true"/>I accept the terms and
+            conditions of the
+            </label>
+            
+            <div>
+              <label>
+            <a href="privacy-policy.html" target="_blank"
+              >Privacy Policy</a
+            </label>
+            </div>
+        </div>
+
+        <div class="div-button-form">
+          <button class="button-form" type="submit">Send</button>
+        </div>
       </div>
     </div>
   </body>
