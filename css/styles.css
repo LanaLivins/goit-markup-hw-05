@@ -597,14 +597,16 @@ img {
 }
 
 .contact-form {
-  max-width: 300px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  align-items: center;
+  gap: 8px;
+  padding-top: 72px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
-.contact-form label {
+.contact-form .label {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -612,4 +614,36 @@ img {
 
 .contact-form input {
   padding: 4px;
+}
+
+.paragraf-form {
+  width: 100%;
+  height: 24px;
+  padding-bottom: 16px;
+}
+
+.label-form input {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 100%;
+}
+
+.label-form-comment input {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  width: 100%;
+}
+
+.div-button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.button-form {
+  height: 56px;
+  width: 169px;
 }
