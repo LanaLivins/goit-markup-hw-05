@@ -593,7 +593,7 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-form-paragraf {
+.footer-form-div {
   margin-left: 80px;
   font-weight: 500;
   font-size: 16px;
@@ -602,10 +602,13 @@ img {
   color: #fff;
 }
 
+.footer-par-form{
+  margin-bottom: 16px;
+}
+
 .footer-form {
   display: flex;
   gap: 24px;
-  margin-top: 16px;
 }
 
 .footer-input {
@@ -634,7 +637,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4D5AE5;
   gap: 16px;
@@ -648,6 +651,12 @@ img {
  text-align: center;
  color: #fff;
  padding-left: 24px;
+ cursor: pointer;
+
+}
+
+.footer-button-svg{
+  margin-left: 16px;
 }
 
 .backdrop {
@@ -751,6 +760,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.input-form:hover {
+  fill: #4D5AE5; 
+}
+
 .label-form-comment input {
   display: flex;
   flex-direction: column;
@@ -767,11 +780,11 @@ img {
 }
 
 .svg-input-form:focus {
-  fill: #4d5ae5;
+  fill: #4D5AE5;
 }
 
 .svg-input-form:hover {
-  fill: #4d5ae5;
+  fill: #4D5AE5;  
 }
 
 .div-comment-form {
