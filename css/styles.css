@@ -760,6 +760,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.input-form:focus{
+  fill: #4D5AE5;
+}
+
 .input-form:hover {
   fill: #4D5AE5; 
 }
