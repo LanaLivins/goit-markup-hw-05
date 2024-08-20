@@ -233,6 +233,10 @@ img {
   fill: transparent;
 }
 
+.visually-hidden:active{
+  background-color: #404BBF;
+}
+
 .svg-user-privacy:checked {
   background-color: #404bbf;
   border: none;
@@ -763,6 +767,10 @@ img {
 }
 
 .svg-input-form:focus {
+  fill: #4d5ae5;
+}
+
+.svg-input-form:hover {
   fill: #4d5ae5;
 }
 
