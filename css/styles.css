@@ -212,8 +212,15 @@ img {
   overflow: hidden;
 }
 
-.visually-hidden:checked + .label-user-privacy .span-user-privacy {
-background-color:#404bbf; 
+
+.visually-hidden:checked + .label-user-privacy > .span-user-privacy {
+  background-color: #404bbf; 
+  fill: #f4f4fd;
+  border: none; 
+}
+
+.visually-hidden:focus + .label-user-privacy > .span-user-privacy {
+  outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 
 .label-user-privacy {
@@ -241,11 +248,6 @@ background-color:#404bbf;
   background-color: #404BBF;
 }
 
-.svg-user-privacy:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
 
 .link-privacy-policy {
   color: #4d5ae5;
@@ -874,11 +876,6 @@ background-color:#404bbf;
   background-color: #404bbf;
 }
 
-#user-privacy:checked + .label-user-privacy .span-user-privacy {
-  background-color: var(--background-color);
-  border: none;
-  fill: #F4F4FD;
-}
 
 .paragraf-form {
   font-family: 'Roboto', sans-serif;
