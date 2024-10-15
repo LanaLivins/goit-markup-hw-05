@@ -849,29 +849,17 @@ img {
     stroke: #2E2F42;
 }
 
-.button-icon:hover  {
+.button-icon:hover {
   border: none;
   background-color: #404bbf;
   fill: #ffffff;
 }
 
-.button-icon:focus {
+.button-icon:focus{
   border: none;
   background-color: #404bbf;
-}
-
-.form-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-icon-href:focus + .button-icon {
   fill: #ffffff;
 }
-
-.form-icon-href:hover + .button-icon {
-  fill: #ffffff;
-}
-
 
 .form-icon-href .button-icon {
   color: currentColor;
